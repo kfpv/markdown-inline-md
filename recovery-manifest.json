@@ -1,0 +1,760 @@
+{
+  "extensionPath": "/Users/kristupas/.vscode/extensions/dykamino.markdown-inline-md-0.27.3",
+  "version": "0.27.3",
+  "sourceMaps": [
+    "dist/extension.js.map",
+    "dist/webview.js.map"
+  ],
+  "sourceFiles": [
+    {
+      "source": "../src/host/extension.ts",
+      "map": "dist/extension.js.map",
+      "bytes": 834,
+      "output": "src/host/extension.ts"
+    },
+    {
+      "source": "../src/host/pdfRoundCorners.ts",
+      "map": "dist/extension.js.map",
+      "bytes": 18958,
+      "output": "src/host/pdfRoundCorners.ts"
+    },
+    {
+      "source": "../src/host/provider.ts",
+      "map": "dist/extension.js.map",
+      "bytes": 11984,
+      "output": "src/host/provider.ts"
+    },
+    {
+      "source": "../src/host/providerExportHandler.ts",
+      "map": "dist/extension.js.map",
+      "bytes": 4411,
+      "output": "src/host/providerExportHandler.ts"
+    },
+    {
+      "source": "../src/host/providerImageManager.ts",
+      "map": "dist/extension.js.map",
+      "bytes": 3194,
+      "output": "src/host/providerImageManager.ts"
+    },
+    {
+      "source": "../src/host/providerMessageHandler.ts",
+      "map": "dist/extension.js.map",
+      "bytes": 20671,
+      "output": "src/host/providerMessageHandler.ts"
+    },
+    {
+      "source": "../src/host/providerUtils.ts",
+      "map": "dist/extension.js.map",
+      "bytes": 2113,
+      "output": "src/host/providerUtils.ts"
+    },
+    {
+      "source": "../src/webview/editor/DualModeHistory.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 3599,
+      "output": "src/webview/editor/DualModeHistory.ts"
+    },
+    {
+      "source": "../src/webview/editor/EditorCommands.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 16585,
+      "output": "src/webview/editor/EditorCommands.ts"
+    },
+    {
+      "source": "../src/webview/editor/EditorCore.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 21441,
+      "output": "src/webview/editor/EditorCore.ts"
+    },
+    {
+      "source": "../src/webview/editor/EditorEventHandlers.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 13355,
+      "output": "src/webview/editor/EditorEventHandlers.ts"
+    },
+    {
+      "source": "../src/webview/editor/EditorExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 4970,
+      "output": "src/webview/editor/EditorExtension.ts"
+    },
+    {
+      "source": "../src/webview/editor/EditorExtensionManager.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 6996,
+      "output": "src/webview/editor/EditorExtensionManager.ts"
+    },
+    {
+      "source": "../src/webview/editor/EditorImageManager.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 3852,
+      "output": "src/webview/editor/EditorImageManager.ts"
+    },
+    {
+      "source": "../src/webview/editor/EditorSchema.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 111,
+      "output": "src/webview/editor/EditorSchema.ts"
+    },
+    {
+      "source": "../src/webview/editor/lib/CodeDetection.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 629,
+      "output": "src/webview/editor/lib/CodeDetection.ts"
+    },
+    {
+      "source": "../src/webview/editor/lib/CodeLanguages.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 9796,
+      "output": "src/webview/editor/lib/CodeLanguages.ts"
+    },
+    {
+      "source": "../src/webview/editor/lib/Frontmatter.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 3859,
+      "output": "src/webview/editor/lib/Frontmatter.ts"
+    },
+    {
+      "source": "../src/webview/editor/lib/MarkdownItRules.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 23402,
+      "output": "src/webview/editor/lib/MarkdownItRules.ts"
+    },
+    {
+      "source": "../src/webview/editor/lib/MarkdownParser.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 9181,
+      "output": "src/webview/editor/lib/MarkdownParser.ts"
+    },
+    {
+      "source": "../src/webview/editor/lib/MarkdownSerializer.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 21435,
+      "output": "src/webview/editor/lib/MarkdownSerializer.ts"
+    },
+    {
+      "source": "../src/webview/editor/lib/MarkdownTableRules.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 11016,
+      "output": "src/webview/editor/lib/MarkdownTableRules.ts"
+    },
+    {
+      "source": "../src/webview/editor/lib/MarkdownTokenMapping.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 4755,
+      "output": "src/webview/editor/lib/MarkdownTokenMapping.ts"
+    },
+    {
+      "source": "../src/webview/editor/lib/MarkRange.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 1140,
+      "output": "src/webview/editor/lib/MarkRange.ts"
+    },
+    {
+      "source": "../src/webview/editor/lib/NodeFinder.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 3419,
+      "output": "src/webview/editor/lib/NodeFinder.ts"
+    },
+    {
+      "source": "../src/webview/editor/schema/blockNodes.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 6859,
+      "output": "src/webview/editor/schema/blockNodes.ts"
+    },
+    {
+      "source": "../src/webview/editor/schema/index.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 819,
+      "output": "src/webview/editor/schema/index.ts"
+    },
+    {
+      "source": "../src/webview/editor/schema/inlineNodes.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 5247,
+      "output": "src/webview/editor/schema/inlineNodes.ts"
+    },
+    {
+      "source": "../src/webview/editor/schema/listNodes.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 2992,
+      "output": "src/webview/editor/schema/listNodes.ts"
+    },
+    {
+      "source": "../src/webview/editor/schema/marks.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 3709,
+      "output": "src/webview/editor/schema/marks.ts"
+    },
+    {
+      "source": "../src/webview/editor/schema/tableNodes.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 2260,
+      "output": "src/webview/editor/schema/tableNodes.ts"
+    },
+    {
+      "source": "../src/webview/editor/SourceEditor.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 22281,
+      "output": "src/webview/editor/SourceEditor.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/block-drag/BlockDragExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 22114,
+      "output": "src/webview/extensions/behavior/block-drag/BlockDragExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/block-edge-cursor/BlockEdgeCursor.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 3144,
+      "output": "src/webview/extensions/behavior/block-edge-cursor/BlockEdgeCursor.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/block-edge-cursor/BlockEdgeCursorExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 14678,
+      "output": "src/webview/extensions/behavior/block-edge-cursor/BlockEdgeCursorExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/block-edge-cursor/blockEdgeUtils.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 4729,
+      "output": "src/webview/extensions/behavior/block-edge-cursor/blockEdgeUtils.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/clipboard/ClipboardExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 2033,
+      "output": "src/webview/extensions/behavior/clipboard/ClipboardExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/find-replace/FindReplaceExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 762,
+      "output": "src/webview/extensions/behavior/find-replace/FindReplaceExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/find-replace/FindReplacePanel.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 12727,
+      "output": "src/webview/extensions/behavior/find-replace/FindReplacePanel.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/find-replace/FindReplacePlugin.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 10905,
+      "output": "src/webview/extensions/behavior/find-replace/FindReplacePlugin.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/inline-cursor/InlineCursorExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 6290,
+      "output": "src/webview/extensions/behavior/inline-cursor/InlineCursorExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/keyboard-overrides/KeyboardOverridesExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 6316,
+      "output": "src/webview/extensions/behavior/keyboard-overrides/KeyboardOverridesExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/mark-boundary/MarkBoundaryExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 7508,
+      "output": "src/webview/extensions/behavior/mark-boundary/MarkBoundaryExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/placeholder/PlaceholderExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 3753,
+      "output": "src/webview/extensions/behavior/placeholder/PlaceholderExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/slash-menu/SlashMenu.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 8559,
+      "output": "src/webview/extensions/behavior/slash-menu/SlashMenu.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/slash-menu/SlashMenuExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 558,
+      "output": "src/webview/extensions/behavior/slash-menu/SlashMenuExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/slash-menu/SlashMenuHeadingPicker.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 3452,
+      "output": "src/webview/extensions/behavior/slash-menu/SlashMenuHeadingPicker.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/slash-menu/SlashMenuImagePopup.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 2471,
+      "output": "src/webview/extensions/behavior/slash-menu/SlashMenuImagePopup.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/slash-menu/SlashMenuItems.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 23627,
+      "output": "src/webview/extensions/behavior/slash-menu/SlashMenuItems.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/smart-text/SmartTextExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 5132,
+      "output": "src/webview/extensions/behavior/smart-text/SmartTextExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/toolbar/ToolbarButtons.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 30224,
+      "output": "src/webview/extensions/behavior/toolbar/ToolbarButtons.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/toolbar/ToolbarFloating.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 7807,
+      "output": "src/webview/extensions/behavior/toolbar/ToolbarFloating.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/toolbar/ToolbarHtmlDropdown.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 5120,
+      "output": "src/webview/extensions/behavior/toolbar/ToolbarHtmlDropdown.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/toolbar/ToolbarLinkCommands.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 2338,
+      "output": "src/webview/extensions/behavior/toolbar/ToolbarLinkCommands.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/toolbar/ToolbarLinkPopup.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 7363,
+      "output": "src/webview/extensions/behavior/toolbar/ToolbarLinkPopup.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/toolbar/ToolbarMarkdownInterpreter.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 4199,
+      "output": "src/webview/extensions/behavior/toolbar/ToolbarMarkdownInterpreter.ts"
+    },
+    {
+      "source": "../src/webview/extensions/behavior/trailing-node/TrailingNodeExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 1057,
+      "output": "src/webview/extensions/behavior/trailing-node/TrailingNodeExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/blockquote/BlockquoteExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 1513,
+      "output": "src/webview/extensions/blocks/blockquote/BlockquoteExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/code-block/CodeBlockDecorationsPlugin.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 6968,
+      "output": "src/webview/extensions/blocks/code-block/CodeBlockDecorationsPlugin.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/code-block/CodeBlockExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 2831,
+      "output": "src/webview/extensions/blocks/code-block/CodeBlockExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/code-block/CodeBlockHighlighting.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 7864,
+      "output": "src/webview/extensions/blocks/code-block/CodeBlockHighlighting.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/code-block/CodeBlockLanguageDropdown.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 5659,
+      "output": "src/webview/extensions/blocks/code-block/CodeBlockLanguageDropdown.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/code-block/CodeBlockToolbar.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 18185,
+      "output": "src/webview/extensions/blocks/code-block/CodeBlockToolbar.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/description-list/DescriptionListExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 1770,
+      "output": "src/webview/extensions/blocks/description-list/DescriptionListExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/details/DetailsExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 6839,
+      "output": "src/webview/extensions/blocks/details/DetailsExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/frontmatter/FrontmatterExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 1490,
+      "output": "src/webview/extensions/blocks/frontmatter/FrontmatterExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/frontmatter/FrontmatterView.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 14423,
+      "output": "src/webview/extensions/blocks/frontmatter/FrontmatterView.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/heading/AnchorPlugin.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 2514,
+      "output": "src/webview/extensions/blocks/heading/AnchorPlugin.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/heading/FindCollapsedNodes.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 1770,
+      "output": "src/webview/extensions/blocks/heading/FindCollapsedNodes.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/heading/HeadingExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 9919,
+      "output": "src/webview/extensions/blocks/heading/HeadingExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/heading/HeadingToSlug.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 1388,
+      "output": "src/webview/extensions/blocks/heading/HeadingToSlug.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/heading/TableOfContents.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 15401,
+      "output": "src/webview/extensions/blocks/heading/TableOfContents.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/horizontal-rule/HorizontalRuleExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 1149,
+      "output": "src/webview/extensions/blocks/horizontal-rule/HorizontalRuleExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/html-block/HtmlBlockExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 14839,
+      "output": "src/webview/extensions/blocks/html-block/HtmlBlockExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/lists/ListsExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 18285,
+      "output": "src/webview/extensions/blocks/lists/ListsExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/mermaid/MermaidExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 2103,
+      "output": "src/webview/extensions/blocks/mermaid/MermaidExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/mermaid/MermaidPlugin.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 17849,
+      "output": "src/webview/extensions/blocks/mermaid/MermaidPlugin.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/notice/NoticeExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 2323,
+      "output": "src/webview/extensions/blocks/notice/NoticeExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/table/ChainTransactions.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 625,
+      "output": "src/webview/extensions/blocks/table/ChainTransactions.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/table/CollapseSelection.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 454,
+      "output": "src/webview/extensions/blocks/table/CollapseSelection.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/table/ColumnSelection.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 2378,
+      "output": "src/webview/extensions/blocks/table/ColumnSelection.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/table/GripSelectionPlugin.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 1128,
+      "output": "src/webview/extensions/blocks/table/GripSelectionPlugin.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/table/RowSelection.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 2640,
+      "output": "src/webview/extensions/blocks/table/RowSelection.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/table/TableCommands.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 21013,
+      "output": "src/webview/extensions/blocks/table/TableCommands.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/table/TableExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 5828,
+      "output": "src/webview/extensions/blocks/table/TableExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/table/TableGripToolbar.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 29639,
+      "output": "src/webview/extensions/blocks/table/TableGripToolbar.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/table/TableKeywordsPlugin.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 3095,
+      "output": "src/webview/extensions/blocks/table/TableKeywordsPlugin.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/table/TableQueries.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 5754,
+      "output": "src/webview/extensions/blocks/table/TableQueries.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/table/TableStyleHelper.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 1137,
+      "output": "src/webview/extensions/blocks/table/TableStyleHelper.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/table/TableView.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 16952,
+      "output": "src/webview/extensions/blocks/table/TableView.ts"
+    },
+    {
+      "source": "../src/webview/extensions/blocks/toc/TocExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 6898,
+      "output": "src/webview/extensions/blocks/toc/TocExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/export/html/ExportHtml.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 9754,
+      "output": "src/webview/extensions/export/html/ExportHtml.ts"
+    },
+    {
+      "source": "../src/webview/extensions/export/html/ExportStyles.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 37126,
+      "output": "src/webview/extensions/export/html/ExportStyles.ts"
+    },
+    {
+      "source": "../src/webview/extensions/export/html/ExportTemplate.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 12534,
+      "output": "src/webview/extensions/export/html/ExportTemplate.ts"
+    },
+    {
+      "source": "../src/webview/extensions/export/html/HtmlCodeHighlighting.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 2030,
+      "output": "src/webview/extensions/export/html/HtmlCodeHighlighting.ts"
+    },
+    {
+      "source": "../src/webview/extensions/export/html/HtmlContentProcessors.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 8711,
+      "output": "src/webview/extensions/export/html/HtmlContentProcessors.ts"
+    },
+    {
+      "source": "../src/webview/extensions/export/html/HtmlDomCleanup.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 5481,
+      "output": "src/webview/extensions/export/html/HtmlDomCleanup.ts"
+    },
+    {
+      "source": "../src/webview/extensions/export/pdf/PdfCodeHighlighting.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 2268,
+      "output": "src/webview/extensions/export/pdf/PdfCodeHighlighting.ts"
+    },
+    {
+      "source": "../src/webview/extensions/export/pdf/PdfEmojiUtils.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 8087,
+      "output": "src/webview/extensions/export/pdf/PdfEmojiUtils.ts"
+    },
+    {
+      "source": "../src/webview/extensions/export/pdf/PdfImageLoader.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 7980,
+      "output": "src/webview/extensions/export/pdf/PdfImageLoader.ts"
+    },
+    {
+      "source": "../src/webview/extensions/export/pdf/PdfMakeExport.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 11417,
+      "output": "src/webview/extensions/export/pdf/PdfMakeExport.ts"
+    },
+    {
+      "source": "../src/webview/extensions/export/pdf/PdfMathRenderer.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 7602,
+      "output": "src/webview/extensions/export/pdf/PdfMathRenderer.ts"
+    },
+    {
+      "source": "../src/webview/extensions/export/pdf/PdfMermaidRenderer.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 6143,
+      "output": "src/webview/extensions/export/pdf/PdfMermaidRenderer.ts"
+    },
+    {
+      "source": "../src/webview/extensions/export/pdf/PdfNodeConverters.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 58983,
+      "output": "src/webview/extensions/export/pdf/PdfNodeConverters.ts"
+    },
+    {
+      "source": "../src/webview/extensions/export/pdf/PdfPalette.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 7483,
+      "output": "src/webview/extensions/export/pdf/PdfPalette.ts"
+    },
+    {
+      "source": "../src/webview/extensions/export/pdf/PdfStyles.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 6138,
+      "output": "src/webview/extensions/export/pdf/PdfStyles.ts"
+    },
+    {
+      "source": "../src/webview/extensions/export/pdf/RobotoMonoFonts.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 2980162,
+      "output": "src/webview/extensions/export/pdf/RobotoMonoFonts.ts"
+    },
+    {
+      "source": "../src/webview/extensions/inline/emoji/EmojiExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 13412,
+      "output": "src/webview/extensions/inline/emoji/EmojiExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/inline/footnotes/FootnotesExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 2427,
+      "output": "src/webview/extensions/inline/footnotes/FootnotesExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/inline/image/ImageExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 4797,
+      "output": "src/webview/extensions/inline/image/ImageExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/inline/image/ImageToolbar.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 9871,
+      "output": "src/webview/extensions/inline/image/ImageToolbar.ts"
+    },
+    {
+      "source": "../src/webview/extensions/inline/image/ImageView.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 5653,
+      "output": "src/webview/extensions/inline/image/ImageView.ts"
+    },
+    {
+      "source": "../src/webview/extensions/inline/inline-diff/InlineDiffExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 520,
+      "output": "src/webview/extensions/inline/inline-diff/InlineDiffExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/inline/marks/MarksExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 8154,
+      "output": "src/webview/extensions/inline/marks/MarksExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/inline/math/MathExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 4690,
+      "output": "src/webview/extensions/inline/math/MathExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/inline/math/MathPlugin.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 2983,
+      "output": "src/webview/extensions/inline/math/MathPlugin.ts"
+    },
+    {
+      "source": "../src/webview/extensions/inline/math/mathUtils.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 640,
+      "output": "src/webview/extensions/inline/math/mathUtils.ts"
+    },
+    {
+      "source": "../src/webview/extensions/inline/video-audio/VideoAudioExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 2887,
+      "output": "src/webview/extensions/inline/video-audio/VideoAudioExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/integrations/ai-changes/AiChangesExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 15229,
+      "output": "src/webview/extensions/integrations/ai-changes/AiChangesExtension.ts"
+    },
+    {
+      "source": "../src/webview/extensions/integrations/drawio/DrawioExtension.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 1565,
+      "output": "src/webview/extensions/integrations/drawio/DrawioExtension.ts"
+    },
+    {
+      "source": "../src/webview/index.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 35176,
+      "output": "src/webview/index.ts"
+    },
+    {
+      "source": "../src/webview/polyfills.js",
+      "map": "dist/webview.js.map",
+      "bytes": 443,
+      "output": "src/webview/polyfills.js"
+    },
+    {
+      "source": "../src/webview/ui/ContextMenu.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 3537,
+      "output": "src/webview/ui/ContextMenu.ts"
+    },
+    {
+      "source": "../src/webview/ui/FileHeader.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 14237,
+      "output": "src/webview/ui/FileHeader.ts"
+    },
+    {
+      "source": "../src/webview/ui/HistoryPanel.ts",
+      "map": "dist/webview.js.map",
+      "bytes": 7464,
+      "output": "src/webview/ui/HistoryPanel.ts"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+	"name": "markdown-inline-md",
+	"private": true,
+	"displayName": "Markdown Inline MD",
+	"description": "A beautiful WYSIWYG Markdown editor for VS Code, inspired by Outline. Rich editing with ProseMirror, integrated with VS Code themes.",
+	"version": "0.27.4",
+	"publisher": "Dykamino",
+	"license": "MIT",
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kfpv/markdown-inline-md"
+	},
+	"engines": {
+		"vscode": "^1.85.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"markdown",
+		"wysiwyg",
+		"editor",
+		"prosemirror",
+		"outline"
+	],
+	"main": "./dist/extension.js",
+	"activationEvents": [],
+	"contributes": {
+		"customEditors": [
+			{
+				"viewType": "inlineMd.markdownEditor",
+				"displayName": "InLineMd WYSIWYG",
+				"selector": [
+					{
+						"filenamePattern": "*.md"
+					},
+					{
+						"filenamePattern": "*.markdown"
+					},
+					{
+						"filenamePattern": "*.mdx"
+					}
+				],
+				"priority": "default"
+			}
+		],
+		"commands": [
+			{
+				"command": "inlineMd.openEditor",
+				"title": "Open with InLineMd WYSIWYG",
+				"category": "InLineMd"
+			},
+			{
+				"command": "inlineMd.exportHtmlLight",
+				"title": "Export to HTML (Light)",
+				"category": "InLineMd"
+			},
+			{
+				"command": "inlineMd.exportHtmlDark",
+				"title": "Export to HTML (Dark)",
+				"category": "InLineMd"
+			},
+			{
+				"command": "inlineMd.exportPdfLight",
+				"title": "Export to PDF (Light)",
+				"category": "InLineMd"
+			},
+			{
+				"command": "inlineMd.exportPdfDark",
+				"title": "Export to PDF (Dark)",
+				"category": "InLineMd"
+			},
+			{
+				"command": "inlineMd.toggleHighlight",
+				"title": "Toggle Highlight",
+				"category": "InLineMd"
+			}
+		],
+		"keybindings": [
+			{
+				"key": "ctrl+shift+h",
+				"mac": "cmd+shift+h",
+				"command": "inlineMd.toggleHighlight",
+				"when": "activeCustomEditorId == 'inlineMd.markdownEditor' && !searchViewletFocus && !inputFocus"
+			},
+			{
+				"key": "ctrl+z",
+				"command": "inlineMd.undo",
+				"when": "activeCustomEditorId == 'inlineMd.markdownEditor'"
+			},
+			{
+				"key": "ctrl+shift+z",
+				"command": "inlineMd.redo",
+				"when": "activeCustomEditorId == 'inlineMd.markdownEditor'"
+			},
+			{
+				"key": "ctrl+y",
+				"command": "inlineMd.redo",
+				"when": "activeCustomEditorId == 'inlineMd.markdownEditor'"
+			}
+		],
+		"configuration": {
+			"title": "InLineMd",
+			"properties": {
+				"inlineMd.csvDelimiter": {
+					"type": "string",
+					"enum": [
+						",",
+						";",
+						"auto"
+					],
+					"default": "auto",
+					"enumDescriptions": [
+						"Comma (US, UK, etc.)",
+						"Semicolon (Russia, Germany, France, etc.)",
+						"Auto-detect based on system locale (may not work correctly)"
+					],
+					"description": "CSV delimiter to use when exporting tables"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"build": "bun esbuild.mjs",
+		"watch": "bun esbuild.mjs --watch",
+		"vscode:prepublish": "bun esbuild.mjs --production",
+		"package": "bunx @vscode/vsce package",
+		"typecheck": "bunx tsc --noEmit",
+    "test:unit": "bunx vitest run --passWithNoTests --config vitest.config.ts",
+    "test:unit:watch": "bunx vitest --config vitest.config.ts",
+		"test:e2e": "bunx vscode-test",
+		"test:e2e:pw": "bunx playwright test",
+		"lint": "bunx oxlint src/"
+	},
+	"devDependencies": {
+		"@playwright/test": "^1.58.2",
+		"@types/js-yaml": "^4.0.9",
+		"@types/lodash": "^4.17.23",
+		"@types/markdown-it": "^14.1.2",
+		"@types/node": "^24.0.0",
+		"@types/bun": "^1.3.0",
+		"@types/vscode": "^1.85.0",
+		"@vscode/test-cli": "^0.0.10",
+		"@vscode/test-electron": "^2.4.1",
+		"@vscode/vsce": "^3.0.0",
+		"buffer": "^6.0.3",
+		"esbuild": "^0.24.0",
+		"jsdom": "^28.0.0",
+		"typescript": "^5.7.0",
+		"vitest": "^4.0.18"
+	},
+	"dependencies": {
+		"@benrbray/prosemirror-math": "^1.0.0",
+		"@codemirror/autocomplete": "^6.20.0",
+		"@codemirror/commands": "^6.10.2",
+		"@codemirror/lang-markdown": "^6.5.0",
+		"@codemirror/language": "^6.12.1",
+		"@codemirror/language-data": "^6.5.2",
+		"@codemirror/state": "^6.5.4",
+		"@codemirror/view": "^6.39.12",
+		"@fontsource/roboto-mono": "^5.2.8",
+		"codemirror": "^6.0.2",
+		"copy-to-clipboard": "^3.3.3",
+		"gemoji": "^8.1.0",
+		"gray-matter": "^4.0.3",
+		"js-yaml": "^4.1.1",
+		"katex": "^0.16.28",
+		"lodash": "^4.17.23",
+		"markdown-it": "^14.1.0",
+		"markdown-it-deflist": "^3.0.0",
+		"markdown-it-footnote": "^4.0.0",
+		"mermaid": "^11.12.1",
+		"pdf-lib": "^1.17.1",
+		"pdfmake": "^0.3.4",
+		"prosemirror-commands": "^1.7.1",
+		"prosemirror-dropcursor": "^1.8.2",
+		"prosemirror-gapcursor": "^1.4.0",
+		"prosemirror-history": "^1.5.0",
+		"prosemirror-inputrules": "^1.5.1",
+		"prosemirror-keymap": "^1.2.3",
+		"prosemirror-markdown": "^1.13.2",
+		"prosemirror-model": "^1.25.4",
+		"prosemirror-schema-list": "^1.5.1",
+		"prosemirror-state": "^1.4.4",
+		"prosemirror-tables": "^1.8.1",
+		"prosemirror-view": "^1.41.4",
+		"refractor": "^3.6.0",
+		"scroll-into-view-if-needed": "^3.1.0",
+		"uuid": "^11.1.0"
+	},
+	"__metadata": {
+		"installedTimestamp": 1785405057594,
+		"targetPlatform": "undefined",
+		"size": 43520512
+	}
+}

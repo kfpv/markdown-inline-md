@@ -1,0 +1,15 @@
+.cursor/
+.git/
+.gitignore
+node_modules/
+e2e/
+src/
+esbuild.mjs
+tsconfig.json
+vitest.config.ts
+bun.lock
+RECOVERY.md
+KNOWN-ISSUES.md
+recovery-manifest.json
+CLAUDE.md
+*.log
